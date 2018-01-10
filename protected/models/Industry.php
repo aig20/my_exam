@@ -25,7 +25,7 @@ class Industry extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, industry', 'required'),
+			array('industry', 'required'),
 			array('id', 'numerical', 'integerOnly'=>true),
 			array('industry', 'length', 'max'=>100),
 			// The following rule is used by search().

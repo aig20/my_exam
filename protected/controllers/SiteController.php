@@ -27,14 +27,96 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model=new Sales('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Sales']))
-			$model->attributes=$_GET['Sales'];
-		
-		$this->render('index',array(
-				'model'=>$model,
-		));
+	
+		if(isset($_POST["submit"])) 
+		{
+			Yii::import('application.components.*');
+			require_once('excel_reader.php');
+			$target_dir = Yii::app()->basePath."/uploads/";
+			$target_file = $target_dir . basename($_FILES["excel_file"]["name"]);
+			$file = file_get_contents($_FILES['excel_file']['tmp_name']);
+			$excel = new PhpExcelReader();
+			
+			if ($file == NULL) {
+			  // error
+			}
+			else {
+				if (move_uploaded_file($_FILES["excel_file"]["tmp_name"], $target_file)) {
+					$excel->read($target_file);
+					foreach($excel->sheets[0]['cells'] as $key => $value) {
+						$company = Company::model()->findAllByAttributes(array('company'=>$value[1]));
+						if(!$company){
+							$company = new Company();
+							$company->company = $value[1];
+							$company->save();
+						}
+						
+						$industry = Industry::model()->findAllByAttributes(array('industry'=>$value[2]));
+						
+						if(!$industry){
+							$industry = new Industry();
+							$industry->industry = $value[2];
+							$industry->save();
+						}
+						
+						$country = Country::model()->findAllByAttributes(array('country'=>$value[3]));
+						if(!$country){
+							$country = new Country();
+							$country->country = $value[3];
+							$country->save();
+						}
+						
+						$sales1 = new Sales();
+						$sales1->company_id = $company[0]->id;
+						$sales1->industry_id = $industry[0]->id;
+						$sales1->country_id = $country[0]->id;
+						$sales1->sales = $value[4];
+						$sales1->year = '2013';
+						$sales1->save();
+							
+						$sales2 = new Sales();
+						$sales2->company_id = $company[0]->id;
+						$sales2->industry_id = $industry[0]->id;
+						$sales2->country_id = $country[0]->id;
+						$sales2->sales = $value[5];
+						$sales2->year = 2014;
+						$sales2->save();
+						
+						$sales3 = new Sales();
+						$sales3->company_id = $company[0]->id;
+						$sales3->industry_id = $industry[0]->id;
+						$sales3->country_id = $country[0]->id;
+						$sales3->sales = $value[6];
+						$sales3->year = 2015;
+						$sales3->save();
+						
+						$sales4 = new Sales();
+						$sales4->company_id = $company[0]->id;
+						$sales4->industry_id = $industry[0]->id;
+						$sales4->country_id = $country[0]->id;
+						$sales4->sales = $value[7];
+						$sales4->year = 2016;
+						$sales4->save();
+						
+						$sales5 = new Sales();
+						$sales5->company_id = $company[0]->id;
+						$sales5->industry_id = $industry[0]->id;
+						$sales5->country_id = $country[0]->id;
+						$sales5->sales = $value[8];
+						$sales5->year = 2017;
+						$sales5->save();
+					}
+				}
+			}
+		}
+			$model=new Sales('search');
+			$model->unsetAttributes();  // clear any default values
+			if(isset($_GET['Sales']))
+				$model->attributes=$_GET['Sales'];
+			
+			$this->render('index',array(
+					'model'=>$model,
+			));
 	}
 
 	/**

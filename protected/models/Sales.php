@@ -32,7 +32,7 @@ class Sales extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, company_id, industry_id, country_id, sales, year', 'required'),
+			array('company_id, industry_id, country_id, sales, year', 'required'),
 			array('id, industry_id, country_id, sales, year', 'numerical', 'integerOnly'=>true),
 			array('company_id', 'length', 'max'=>100),
 			// The following rule is used by search().
@@ -49,9 +49,9 @@ class Sales extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'company' => array(self::BELONGS_TO, 'Company', 'company_id'),
-			'industry' => array(self::BELONGS_TO, 'Industry', 'industry_id'),
-			'country' => array(self::BELONGS_TO, 'Company', 'country_id'),
+			'companyTBL' => array(self::BELONGS_TO, 'Company', 'company_id'),
+			'industryTBL' => array(self::BELONGS_TO, 'Industry', 'industry_id'),
+			'countryTBL' => array(self::BELONGS_TO, 'Country', 'country_id'),
 		);
 	}
 
@@ -97,22 +97,25 @@ class Sales extends CActiveRecord
 		$criteria->compare('country_id',$this->country_id);
 		$criteria->compare('sales',$this->sales);
 		$criteria->compare('year',$this->year);
-
+		$criteria->compare('companyTBL.company', $this->company, true );
+		$criteria->compare('industryTBL.industry', $this->industry, true );
+		$criteria->compare('countryTBL.country', $this->industry, true );
+		
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 			'sort'=>array(
 					'attributes'=>array(
 							'company'=>array(
-									'asc'=>'company.company',
-									'desc'=>'company.company DESC',
+									'asc'=>'companyTBL.company',
+									'desc'=>'companyTBL.company DESC',
 							),
 							'industry'=>array(
-									'asc'=>'industry.industry',
-									'desc'=>'industry.industry DESC',
+									'asc'=>'industryTBL.industry',
+									'desc'=>'industryTBL.industry DESC',
 							),
 							'country'=>array(
-									'asc'=>'country.country',
-									'desc'=>'country.country DESC',
+									'asc'=>'countryTBL.country',
+									'desc'=>'countryTBL.country DESC',
 							)
 							,
 							'*',

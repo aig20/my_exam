@@ -25,7 +25,7 @@ class Country extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, country', 'required'),
+			array('country', 'required'),
 			array('id', 'numerical', 'integerOnly'=>true),
 			array('country', 'length', 'max'=>100),
 			// The following rule is used by search().
