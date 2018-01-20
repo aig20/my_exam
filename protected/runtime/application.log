@@ -434,3 +434,767 @@ Stack trace:
 #29 {main}
 REQUEST_URI=/og/index.php
 ---
+2018/01/19 14:14:53 [error] [php] Undefined variable: pivotTable (C:\xampp\htdocs\og\protected\views\site\index.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(119): SiteController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\index.php (20)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (119)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 14:17:06 [error] [php] Undefined variable: pivotTable (C:\xampp\htdocs\og\protected\views\site\index.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(119): SiteController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\index.php (20)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (119)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 14:17:40 [error] [php] Undefined variable: pivotTable (C:\xampp\htdocs\og\protected\views\site\index.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(119): SiteController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\index.php (20)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (119)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 14:21:45 [error] [php] Undefined index: id (C:\xampp\htdocs\Yii\framework\web\CSqlDataProvider.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(150): CGridView->renderKeys()
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(182): CGridView->run()
+#2 C:\xampp\htdocs\og\protected\views\site\index.php(32): SiteController->widget()
+#3 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#7 C:\xampp\htdocs\og\protected\controllers\SiteController.php(121): SiteController->render()
+#8 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\index.php (32)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (121)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 14:22:30 [error] [php] Undefined index: id (C:\xampp\htdocs\Yii\framework\web\CSqlDataProvider.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(150): CGridView->renderKeys()
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(182): CGridView->run()
+#2 C:\xampp\htdocs\og\protected\views\site\index.php(32): SiteController->widget()
+#3 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#7 C:\xampp\htdocs\og\protected\controllers\SiteController.php(121): SiteController->render()
+#8 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\index.php (32)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (121)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 14:23:23 [error] [php] Undefined index: id (C:\xampp\htdocs\Yii\framework\web\CSqlDataProvider.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(150): CGridView->renderKeys()
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(182): CGridView->run()
+#2 C:\xampp\htdocs\og\protected\views\site\index.php(32): SiteController->widget()
+#3 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#7 C:\xampp\htdocs\og\protected\controllers\SiteController.php(122): SiteController->render()
+#8 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\index.php (32)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (122)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 14:25:45 [error] [php] Undefined index: id (C:\xampp\htdocs\Yii\framework\web\CSqlDataProvider.php:125)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(150): CGridView->renderKeys()
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(182): CGridView->run()
+#2 C:\xampp\htdocs\og\protected\views\site\index.php(27): SiteController->widget()
+#3 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#7 C:\xampp\htdocs\og\protected\controllers\SiteController.php(122): SiteController->render()
+#8 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\index.php (27)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (122)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 14:43:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2017' in 'order clause'. The SQL statement executed was: SELECT a.id, b.company, c.industry, d.country, 
+		sum( if( year = 2013, sales, 0 ) ) AS "2013", sum( if( year = 2014, sales, 0 ) ) AS "2014", sum( if( year = 2015, sales, 0 ) ) AS "2015",
+		sum( if( year = 2016, sales, 0 ) ) AS "2016", sum( if( year = 2017, sales, 0 ) ) AS "2017"
+		FROM tbl_sales AS a LEFT JOIN tbl_company AS b ON b.id=a.company_id
+		LEFT JOIN tbl_industry AS c ON c.id=a.industry_id
+		LEFT JOIN tbl_country AS d ON d.id=a.country_id
+		GROUP BY b.company, c.industry, d.country ORDER BY 2017 LIMIT 10.
+in C:\xampp\htdocs\og\protected\views\site\index.php (36)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (121)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 14:43:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2017' in 'order clause'. The SQL statement executed was: SELECT a.id, b.company, c.industry, d.country, 
+		sum( if( year = 2013, sales, 0 ) ) AS "2013", sum( if( year = 2014, sales, 0 ) ) AS "2014", sum( if( year = 2015, sales, 0 ) ) AS "2015",
+		sum( if( year = 2016, sales, 0 ) ) AS "2016", sum( if( year = 2017, sales, 0 ) ) AS "2017"
+		FROM tbl_sales AS a LEFT JOIN tbl_company AS b ON b.id=a.company_id
+		LEFT JOIN tbl_industry AS c ON c.id=a.industry_id
+		LEFT JOIN tbl_country AS d ON d.id=a.country_id
+		GROUP BY b.company, c.industry, d.country ORDER BY 2017 LIMIT 10' in C:\xampp\htdocs\Yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\Yii\framework\web\CSqlDataProvider.php(108): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(168): CSqlDataProvider->fetchData()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(147): CGridView->init()
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#7 C:\xampp\htdocs\og\protected\views\site\index.php(36): CBaseController->widget('zii.widgets.gri...', Array)
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\og\protected\controllers\SiteController.php(121): CController->render('index', Array)
+#13 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('index')
+#18 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#19 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/og/index.php?ajax=company-grid&r=site%2Findex&sort=year2017
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 14:53:58 [error] [exception.CException] exception 'CException' with message 'Property "CSqlDataProvider.criteria" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CSqlDataProvider.php(68): CComponent->__set('criteria', Object(CDbCriteria))
+#1 C:\xampp\htdocs\og\protected\models\Sales.php(188): CSqlDataProvider->__construct(Object(CDbCommand), Array)
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(113): Sales->getPivotTable()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+---
+2018/01/19 14:56:02 [error] [exception.CException] exception 'CException' with message 'Property "CSqlDataProvider.criteria" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CSqlDataProvider.php(68): CComponent->__set('criteria', Object(CDbCriteria))
+#1 C:\xampp\htdocs\og\protected\models\Sales.php(196): CSqlDataProvider->__construct(Object(CDbCommand), Array)
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(113): Sales->getPivotTable()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+---
+2018/01/19 14:59:22 [error] [exception.CException] exception 'CException' with message 'Property "CSqlDataProvider.criteria" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CSqlDataProvider.php(68): CComponent->__set('criteria', Object(CDbCriteria))
+#1 C:\xampp\htdocs\og\protected\models\Sales.php(185): CSqlDataProvider->__construct(Object(CDbCommand), Array)
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(113): Sales->getPivotTable()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+---
+2018/01/19 15:07:23 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(70): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:11:10 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(71): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:11:41 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(70): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:15:02 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(70): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:15:15 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(70): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:15:33 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(70): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:16:32 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\og\protected\controllers\SiteController.php:68)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (68)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/19 15:16:55 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(70): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:18:34 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(70): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:18:46 [error] [exception.CException] exception 'CException' with message 'Property "Company.0" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\xampp\htdocs\Yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\xampp\htdocs\og\protected\controllers\SiteController.php(70): CModel->offsetGet(0)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/og/
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/19 15:49:47 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.afterAjaxUpdat" is not defined.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('afterAjaxUpdat', 'loadData')
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.gri...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\xampp\htdocs\og\protected\views\site\index.php(33): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\og\protected\controllers\SiteController.php(121): CController->render('index', Array)
+#9 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/og/
+---
+2018/01/19 16:02:42 [error] [php] Undefined variable: pivotTable (C:\xampp\htdocs\og\protected\views\site\grid.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\og\protected\views\site\index.php(21): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#6 C:\xampp\htdocs\og\protected\controllers\SiteController.php(121): SiteController->render()
+#7 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\grid.php (4)
+in C:\xampp\htdocs\og\protected\views\site\index.php (21)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (121)
+2018/01/20 14:16:55 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Yii\framework\base\CComponent.php(614) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(231): CDataColumn->getDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(154): CDataColumn->renderDataCellContent()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(639): CDataColumn->renderDataCell()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(623): CGridView->renderDataCell()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(579): CGridView->renderTableRow()
+#5 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(489): CGridView->renderTableBody()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#7 unknown(0): CGridView->renderSection()
+#8 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(149): CGridView->renderContent()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(182): CGridView->run()
+#11 C:\xampp\htdocs\og\protected\views\site\index.php(84): SiteController->widget()
+#12 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#13 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(872): SiteController->renderFile()
+#15 C:\xampp\htdocs\Yii\framework\web\CController.php(785): SiteController->renderPartial()
+#16 C:\xampp\htdocs\og\protected\controllers\SiteController.php(125): SiteController->render()
+#17 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#20 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#21 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#22 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\og\index.php(13): CWebApplication->run()
+REQUEST_URI=/og/
+in C:\xampp\htdocs\og\protected\views\site\index.php (84)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:32 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:32 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:32 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:42 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:42 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:42 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:42 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1).
+in C:\xampp\htdocs\og\protected\views\site\index.php (85)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1)' in C:\xampp\htdocs\Yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\og\protected\views\site\index.php(85): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\og\protected\controllers\SiteController.php(125): CController->render('index', Array)
+#16 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/og/?Sales%5Bcompany%5D=Shell&Sales%5Bindustry%5D=&Sales%5Bcountry%5D=&Sales%5Bsales%5D=&Sales%5Byear%5D=2017&Sales_page=1&ajax=sales-grid
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/20 14:20:54 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:54 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:54 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:54 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1).
+in C:\xampp\htdocs\og\protected\views\site\index.php (85)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:20:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1)' in C:\xampp\htdocs\Yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\og\protected\views\site\index.php(85): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\og\protected\controllers\SiteController.php(125): CController->render('index', Array)
+#16 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/og/?Sales%5Bcompany%5D=Shell&Sales%5Bindustry%5D=&Sales%5Bcountry%5D=&Sales%5Bsales%5D=&Sales%5Byear%5D=2017&Sales_page=1&ajax=sales-grid
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/20 14:21:25 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:21:25 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:21:25 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:21:25 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1).
+in C:\xampp\htdocs\og\protected\views\site\index.php (85)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:21:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1)' in C:\xampp\htdocs\Yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\og\protected\views\site\index.php(85): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\og\protected\controllers\SiteController.php(125): CController->render('index', Array)
+#16 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/og/?Sales%5Bcompany%5D=Shell&Sales%5Bindustry%5D=&Sales%5Bcountry%5D=&Sales%5Bsales%5D=&Sales%5Byear%5D=2017&Sales_page=1&ajax=sales-grid
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/20 14:22:10 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:22:10 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:22:10 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:22:10 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1).
+in C:\xampp\htdocs\og\protected\views\site\index.php (85)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:22:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1)' in C:\xampp\htdocs\Yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\og\protected\views\site\index.php(85): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\og\protected\controllers\SiteController.php(125): CController->render('index', Array)
+#16 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/og/?Sales%5Bcompany%5D=Shell&Sales%5Bindustry%5D=&Sales%5Bcountry%5D=&Sales%5Bsales%5D=&Sales%5Byear%5D=2017&Sales_page=1&ajax=sales-grid
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/20 14:24:15 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:24:15 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:24:15 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:24:15 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1).
+in C:\xampp\htdocs\og\protected\views\site\index.php (85)
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (125)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:24:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'companyTBL.company' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `tbl_sales` `t` WHERE (year=:ycp0) AND (companyTBL.company LIKE :ycp1)' in C:\xampp\htdocs\Yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\Yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\Yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\og\protected\views\site\index.php(85): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\og\protected\controllers\SiteController.php(125): CController->render('index', Array)
+#16 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\xampp\htdocs\Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\og\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/og/?Sales%5Bcompany%5D=Shell&Sales%5Bindustry%5D=&Sales%5Bcountry%5D=&Sales%5Bsales%5D=&Sales%5Byear%5D=2017&Sales_page=1&ajax=sales-grid
+HTTP_REFERER=http://localhost/og/
+---
+2018/01/20 14:30:54 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:30:54 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:30:54 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:31:05 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:31:05 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:31:05 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:31:59 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:31:59 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:31:59 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:32:04 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:32:04 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:32:04 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:14 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:14 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:14 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:20 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:20 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:20 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:46 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:46 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:46 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:54 [warning] [application] Failed to set unsafe attribute "company" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:54 [warning] [application] Failed to set unsafe attribute "industry" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)
+2018/01/20 14:39:54 [warning] [application] Failed to set unsafe attribute "country" of "Sales".
+in C:\xampp\htdocs\og\protected\controllers\SiteController.php (118)
+in C:\xampp\htdocs\og\index.php (13)

@@ -90,6 +90,7 @@ class Sales extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
+		$criteria->with = array('companyTBL', 'industryTBL', 'countryTBL');
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('company_id',$this->company_id,true);
@@ -133,5 +134,40 @@ class Sales extends CActiveRecord
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
+	}
+
+	public function getPivotTable()
+	{               
+		$sql = 'SELECT a.id, b.company, c.industry, d.country, 
+		sum( if( year = 2013, sales, 0 ) ) AS "_2013", sum( if( year = 2014, sales, 0 ) ) AS "_2014", sum( if( year = 2015, sales, 0 ) ) AS "_2015",
+		sum( if( year = 2016, sales, 0 ) ) AS "_2016", sum( if( year = 2017, sales, 0 ) ) AS "_2017"
+		FROM tbl_sales AS a LEFT JOIN tbl_company AS b ON b.id=a.company_id
+		LEFT JOIN tbl_industry AS c ON c.id=a.industry_id
+		LEFT JOIN tbl_country AS d ON d.id=a.country_id
+		GROUP BY b.company, c.industry, d.country';
+		$rawData = Yii::app()->db->createCommand($sql);
+		$count=Yii::app()->db->createCommand('SELECT COUNT(*) FROM (' . $sql . ') as count_alias')->queryScalar();
+		$dataProvider=new CSqlDataProvider($rawData, array(
+						'totalItemCount'=>$count,
+						'sort'=>array(
+							'attributes'=>array(
+								'company', 'industry', 'country', '_2013', '_2014', '_2015', '_2016', '_2017'
+							),
+						),
+						'pagination'=>array(
+							'pageSize'=>10,
+						),
+		));
+		
+		return $dataProvider; /*will return a list of arrays.*/
+	}
+
+	public function getTotalSales($ids)
+	{
+			$ids = implode(",",$ids);
+			
+			$connection=Yii::app()->db;
+			$command=$connection->createCommand("SELECT SUM(sales) FROM `tbl_sales` where id in ($ids)");
+			return "Total Sales: ".$amount = $command->queryScalar();
 	}
 }
